@@ -9,6 +9,7 @@ while process < 30000:
          if even_div == 1:
             current_number += 1
             process = 0
+            print(f"Currently working on {current_number}")
       else:
           odd_mul = (current_number*3) + 1
 print(f'Number {current_number} has been in 3x+1 cycle for more than 30000 times, there is a high chance it might string to infinity')
