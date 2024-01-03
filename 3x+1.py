@@ -5,7 +5,7 @@ stopwatch = eval(input('What is your limit?\t'))
 limiter = 0
 while process <= 30000 and limiter == 0:
       if num >= stopwatch:
-         process = 30000
+         limiter = 1
       process += 1
       if current_number % 2 == 0:
          even_div = current_number/2
