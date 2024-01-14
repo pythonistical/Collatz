@@ -1,7 +1,7 @@
 current_number = 2
 num = 2
 process = 0
-stopwatch = eval(input('What is your limit?\t'))
+stopwatch = int(input('What is your limit?\t'))
 limiter = 0
 while process <= 30000 and limiter == 0:
       if num >= stopwatch:
